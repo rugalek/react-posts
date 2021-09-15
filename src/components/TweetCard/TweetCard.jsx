@@ -1,10 +1,12 @@
 import React from 'react';
 import {TweetBtn} from './TweetBtn';
+import styles from './TweetCard.module.css'
+
 
 export class TweetCard extends React.Component {
     render() {
         const {name, nickName, date, post, avatarUrl, replyCount, retweetCount, likes} = this.props;
-        return <div>
+        return <div className={styles.container}>
             <img src={avatarUrl}
             width={500}
             />

@@ -1,0 +1,1 @@
+export { FbCard } from './FbCard'

@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainContainer {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 10px;
+  background-color: ghostwhite;
+  border: 1px solid ghostwhite;
+  border-radius: 25px;
+  width: 25%;
+  flex-direction: row;
+}
+.fbContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px;
+}
+.fbAvatar {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  padding: 5px 5px;
+  border-radius: 50%;
+}
+.fbBtn {
+  color: #555fa9;
+}
+.fbDot {
+  display: flex;
+
+  width: 4px;
+  height: 4px;
+  background-color: darkgrey;
+  border-radius: 50%;
+  margin: 7px;
+}
+.fbBody {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 10px;
+}
+.fbGrayText {
+  color: grey;
+}
+.fbFooter {
+  display: flex;
+  align-items: center;
+  color: rgb(24, 138, 209);
+  font-size: 10px;
+  padding-top: 5px;
+}
+/* .fbText {
+} */
