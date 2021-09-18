@@ -1,0 +1,50 @@
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("https://content.onliner.by/news/970x485/40f068b0fcc3d931b08fdc745bb98e0d.jpeg");
+  width: 500px;
+  height: 300px;
+  margin: 10px;
+}
+.headerCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.sectionBg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(236, 223, 39);
+  box-sizing: border-box;
+  width: 120px;
+  height: 30px;
+  margin: 15px 15px;
+}
+.sectionText {
+  font-size: 80%;
+}
+.commentsBg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 53px;
+  height: 33px;
+  margin: 15px 15px;
+  background-color: gray;
+  border: 3px solid rgb(236, 223, 39);
+  color: rgb(236, 223, 39);
+}
+.cardText {
+  display: flex;
+  align-items: flex-start;
+  margin: 5%;
+  font-size: large;
+  font-weight: bold;
+  white-space: nowrap;
+  color: white;
+}

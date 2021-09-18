@@ -1,0 +1,52 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  /* box-sizing: border-box; */
+  justify-content: space-between;
+  width: 500px;
+  height: 150px;
+  border: 1px solid lightgray;
+  padding-left: 10px;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+.job {
+  display: flex;
+  font-size: 15px;
+  font-weight: 450;
+  color: rgb(53, 162, 230);
+}
+.company {
+  color: lightgrey;
+  font-size: 10px;
+  padding-top: 2px;
+}
+.city {
+  color: lightgrey;
+  font-size: 10px;
+}
+.text {
+  text-align: start;
+  font-size: 11px;
+}
+.followbtn {
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  align-items: center;
+  width: inherit;
+}
+.followbtnText {
+  width: 80px;
+  height: 22px;
+  background-color: rgb(28, 144, 211);
+  color: white;
+  font-size: 10px;
+  padding-top: 3px;
+  margin-top: 5px;
+}
+.date {
+  font-size: 10px;
+  padding-right: 30px;
+  color: lightgrey;
+}
